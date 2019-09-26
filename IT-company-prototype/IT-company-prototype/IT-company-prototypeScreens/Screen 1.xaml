@@ -2,10 +2,27 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Name="Screen_1_Name"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="d"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity" x:Name="Screen_1_Name"
 	x:Class="IT_company_prototypeScreens.Screen_1"
-	Width="640" Height="480">
+	Width="400" Height="260">
 
-	<Grid x:Name="LayoutRoot" Background="White"/>
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Image RenderTransformOrigin="0.26,1.077" Source="pictures/wallpaper.jpg" Stretch="Fill"/>
+		<Label Margin="136,8,136,0" VerticalAlignment="Top" Height="72" Content="Login" FontFamily="Humanst521 BT" FontSize="48" FontWeight="Medium" RenderTransformOrigin="0.321,1.481"/>
+		<Button Margin="160,0,160,62" VerticalAlignment="Bottom" Height="24" Content="Submit" FontFamily="Humanst521 BT" FontSize="16"/>
+		<Button Margin="144,0,136,18" VerticalAlignment="Bottom" Height="26" Content="Register  now" FontFamily="Humanst521 BT" FontSize="16">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_3"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Label Margin="186.5,0,181.5,38.453" VerticalAlignment="Bottom" Height="31.547" Content="or" FontFamily="Humanst521 BT" FontSize="16" RenderTransformOrigin="-0.5,0.493"/>
+		<TextBox Margin="116.125,0,115.875,140.287" VerticalAlignment="Bottom" Height="23.75" Text="login" TextWrapping="Wrap"/>
+		<TextBox Margin="116.125,0,119.875,97.5" VerticalAlignment="Bottom" Text="password" TextWrapping="Wrap" Height="23.75"/>
+		<Label HorizontalAlignment="Left" Margin="62.948,89.637,0,140.287" Content="Login:" Background="#00CB84AF" FontFamily="Humanst521 BT" FontSize="16" RenderTransformOrigin="4.3,7.571"/>
+		<Label HorizontalAlignment="Left" Margin="39.651,0,0,97.613" Content="Password:" RenderTransformOrigin="4.3,7.571" VerticalAlignment="Bottom" Height="28" Background="#00844242" FontFamily="Humanst521 BT" FontSize="16" d:LayoutOverrides="VerticalAlignment"/>
+	</Grid>
 </UserControl>

@@ -1,0 +1,18 @@
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\bin\Debug\IT-company-prototype.Screens.dll
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\bin\Debug\IT-company-prototype.Screens.pdb
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\ResolveAssemblyReference.cache
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_1.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\SketchStyles.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_1.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\IT-company-prototype.Screens_MarkupCompile.cache
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\IT-company-prototype.Screens.g.resources
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\IT-company-prototype.Screens.dll
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\IT-company-prototype.Screens.pdb
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_2.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_3.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_4.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_2.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_3.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_4.g.cs
