@@ -16,3 +16,25 @@ G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company
 G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_2.g.cs
 G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_3.g.cs
 G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_4.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\IT-company-prototype.Screens_MarkupCompile.lref
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\ProjectDataSources.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\SampleData\UsersSet\UsersSet.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_5.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_6.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_7.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_5.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_6.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_7.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_8.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_9.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_8.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_9.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_10.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_11.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_12.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_13.baml
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_10.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_11.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_12.g.cs
+G:\repos\IT-company-project\IT-company-prototype\IT-company-prototype\IT-company-prototypeScreens\obj\Debug\Screen 1_13.g.cs

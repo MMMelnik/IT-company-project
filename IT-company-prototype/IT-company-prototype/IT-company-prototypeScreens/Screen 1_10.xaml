@@ -1,0 +1,41 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity" x:Name="Screen_1_10_Name"
+	x:Class="IT_company_prototypeScreens.Screen_1_10"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Image Source="pictures\wallpaper.jpg" Stretch="Fill"/>
+		<Button Margin="36.359,0,0,28" VerticalAlignment="Bottom" Height="32" FontFamily="Humanst521 BT" FontSize="16" HorizontalAlignment="Left" Width="108" RenderTransformOrigin="-0.852,3" Content="Go back">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_4"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Label Content="New Department" FontFamily="Humanst521 Lt BT" FontSize="24" Foreground="White" RenderTransformOrigin="1.667,0.275" Margin="192,32,264,0" VerticalAlignment="Top" >
+			<Label.Background>
+				<SolidColorBrush/>
+			</Label.Background>
+		</Label>
+		<Label HorizontalAlignment="Left" Margin="36.359,120,0,0" VerticalAlignment="Top" Width="163.641" Content="Department name:" FontSize="18.667"/>
+		<TextBox Margin="216,129.193,309.616,0" VerticalAlignment="Top" TextWrapping="Wrap" Text="genitors"/>
+		<Button Margin="0,0,92,28" VerticalAlignment="Bottom" Height="32" FontFamily="Humanst521 BT" FontSize="16" HorizontalAlignment="Right" Width="108" RenderTransformOrigin="-0.852,3" Content="Save">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_7"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Label HorizontalAlignment="Left" Margin="36.359,173.17,0,0" VerticalAlignment="Top" Width="163.641" Content="Department PM:" FontSize="18.667"/>
+		<ComboBox Margin="216,186.04,304,0" VerticalAlignment="Top">
+			<ComboBoxItem Content="Ivan"/>
+			<ComboBoxItem Content="Bill"/>
+			<ComboBoxItem Content="Oksana Petrovna"/>
+		</ComboBox>
+	</Grid>
+</UserControl>

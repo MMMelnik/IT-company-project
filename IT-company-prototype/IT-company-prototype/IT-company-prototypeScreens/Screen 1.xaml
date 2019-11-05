@@ -11,11 +11,17 @@
 	<Grid x:Name="LayoutRoot" Background="White">
 		<Image RenderTransformOrigin="0.26,1.077" Source="pictures/wallpaper.jpg" Stretch="Fill"/>
 		<Label Margin="136,8,136,0" VerticalAlignment="Top" Height="72" Content="Login" FontFamily="Humanst521 BT" FontSize="48" FontWeight="Medium" RenderTransformOrigin="0.321,1.481"/>
-		<Button Margin="160,0,160,62" VerticalAlignment="Bottom" Height="24" Content="Submit" FontFamily="Humanst521 BT" FontSize="16"/>
-		<Button Margin="144,0,136,18" VerticalAlignment="Bottom" Height="26" Content="Register  now" FontFamily="Humanst521 BT" FontSize="16">
+		<Button Margin="160,0,160,62" VerticalAlignment="Bottom" Height="24" Content="Submit" FontFamily="Humanst521 BT" FontSize="16">
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="Click">
 					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_3"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Margin="144,0,136,18" VerticalAlignment="Bottom" Height="26" Content="Register  now" FontFamily="Humanst521 BT" FontSize="16">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_1"/>
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</Button>

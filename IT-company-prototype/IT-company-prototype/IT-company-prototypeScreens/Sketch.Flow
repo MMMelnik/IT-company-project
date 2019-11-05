@@ -10,8 +10,8 @@
       <FileName>Screen 1.xaml</FileName>
       <Annotations />
       <Position>
-        <X>0</X>
-        <Y>0</Y>
+        <X>4</X>
+        <Y>1</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -29,25 +29,13 @@
     </Screen>
     <Screen>
       <Type>Navigation</Type>
-      <ClassName>IT_company_prototypeScreens.Screen_1_2</ClassName>
-      <DisplayName>Department head's main page</DisplayName>
-      <FileName>Screen 1_2.xaml</FileName>
-      <Annotations />
-      <Position>
-        <X>142</X>
-        <Y>13</Y>
-      </Position>
-      <VisualTag>0</VisualTag>
-    </Screen>
-    <Screen>
-      <Type>Navigation</Type>
       <ClassName>IT_company_prototypeScreens.Screen_1_3</ClassName>
       <DisplayName>Employee`s main page</DisplayName>
       <FileName>Screen 1_3.xaml</FileName>
       <Annotations />
       <Position>
-        <X>144</X>
-        <Y>55</Y>
+        <X>162</X>
+        <Y>32</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -58,8 +46,116 @@
       <FileName>Screen 1_4.xaml</FileName>
       <Annotations />
       <Position>
-        <X>147</X>
-        <Y>107</Y>
+        <X>161</X>
+        <Y>84</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>IT_company_prototypeScreens.Screen_1_5</ClassName>
+      <DisplayName>New Employee</DisplayName>
+      <FileName>Screen 1_5.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>345</X>
+        <Y>99</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>IT_company_prototypeScreens.Screen_1_6</ClassName>
+      <DisplayName>View Employee</DisplayName>
+      <FileName>Screen 1_6.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>300</X>
+        <Y>134</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>IT_company_prototypeScreens.Screen_1_7</ClassName>
+      <DisplayName>New task</DisplayName>
+      <FileName>Screen 1_7.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>343</X>
+        <Y>-72</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>IT_company_prototypeScreens.Screen_1_2</ClassName>
+      <DisplayName>PM main page</DisplayName>
+      <FileName>Screen 1_2.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>160</X>
+        <Y>-24</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>IT_company_prototypeScreens.Screen_1_8</ClassName>
+      <DisplayName>View task</DisplayName>
+      <FileName>Screen 1_8.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>344</X>
+        <Y>-32</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>IT_company_prototypeScreens.Screen_1_9</ClassName>
+      <DisplayName>View task as employee</DisplayName>
+      <FileName>Screen 1_9.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>346</X>
+        <Y>27</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>IT_company_prototypeScreens.Screen_1_10</ClassName>
+      <DisplayName>New department</DisplayName>
+      <FileName>Screen 1_10.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>219</X>
+        <Y>172</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>IT_company_prototypeScreens.Screen_1_11</ClassName>
+      <DisplayName>View department</DisplayName>
+      <FileName>Screen 1_11.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>91</X>
+        <Y>159</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>IT_company_prototypeScreens.Screen_1_13</ClassName>
+      <DisplayName>View eployee(as PM)</DisplayName>
+      <FileName>Screen 1_13.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>168</X>
+        <Y>-74</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -81,13 +177,6 @@
     </Connection>
     <Connection>
       <Source>IT_company_prototypeScreens.Screen_1</Source>
-      <Target>IT_company_prototypeScreens.Screen_1_2</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
-      <Source>IT_company_prototypeScreens.Screen_1</Source>
       <Target>IT_company_prototypeScreens.Screen_1_3</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
@@ -96,6 +185,153 @@
     <Connection>
       <Source>IT_company_prototypeScreens.Screen_1</Source>
       <Target>IT_company_prototypeScreens.Screen_1_4</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_3</Source>
+      <Target>IT_company_prototypeScreens.Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_4</Source>
+      <Target>IT_company_prototypeScreens.Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_2</Source>
+      <Target>IT_company_prototypeScreens.Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_2</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_7</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_2</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_8</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_3</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_9</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_4</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_6</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_4</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_5</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_7</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_8</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_4</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_11</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_4</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_10</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_7</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_8</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_9</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_3</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_5</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_4</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_6</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_4</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_10</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_4</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_11</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_4</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_13</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>IT_company_prototypeScreens.Screen_1_2</Source>
+      <Target>IT_company_prototypeScreens.Screen_1_13</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -144,10 +380,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1</Zoom>
+    <Zoom>0.8</Zoom>
     <Center>
-      <X>204.015468975469</X>
-      <Y>99.13012609274503</Y>
+      <X>128.84756416847057</X>
+      <Y>29.87834298457043</Y>
     </Center>
   </ViewState>
 </Data>

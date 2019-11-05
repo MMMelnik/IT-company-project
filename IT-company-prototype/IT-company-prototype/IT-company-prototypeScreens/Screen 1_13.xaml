@@ -1,0 +1,68 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity" xmlns:Custom="http://schemas.microsoft.com/wpf/2008/toolkit" x:Name="Screen_1_13_Name"
+	x:Class="IT_company_prototypeScreens.Screen_1_13"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Image Source="pictures/wallpaper.jpg" Stretch="Fill">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseDown">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_2"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Image>
+		<Button Margin="36.359,0,0,28" VerticalAlignment="Bottom" Height="32" Content="Go back" FontFamily="Humanst521 BT" FontSize="16" HorizontalAlignment="Left" Width="108" RenderTransformOrigin="-0.852,3">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_4"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Label Content="Noii Harari" FontFamily="Humanst521 Lt BT" FontSize="24" Foreground="White" RenderTransformOrigin="1.667,0.275" Margin="208.359,32,319.641,0" VerticalAlignment="Top" >
+			<Label.Background>
+				<SolidColorBrush/>
+			</Label.Background>
+		</Label>
+		<Label Content="Employee name:" FontFamily="Humanst521 Lt BT" FontSize="24" Foreground="White" RenderTransformOrigin="1.667,0.275" Margin="36.359,32,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="168" >
+			<Label.Background>
+				<SolidColorBrush/>
+			</Label.Background>
+		</Label>
+		<Label HorizontalAlignment="Left" Margin="36.359,120,0,0" VerticalAlignment="Top" Width="108" Content="First name:" FontSize="18.667"/>
+		<Label HorizontalAlignment="Left" Margin="36.359,158.83,0,0" VerticalAlignment="Top" Width="108" Content="Last name:" FontSize="18.667"/>
+		<Label HorizontalAlignment="Left" Margin="36.359,193.66,0,0" Width="108" Content="Birth date:" FontSize="18.667" VerticalAlignment="Top"/>
+		<Label HorizontalAlignment="Left" Margin="36.359,232.49,0,212.68" Width="136.359" Content="Department:" FontSize="18.667" RenderTransformOrigin="0.496,0.067" d:LayoutOverrides="Height"/>
+		<TextBlock HorizontalAlignment="Left" Margin="144.359,132.563,0,0" VerticalAlignment="Top" Text="Noii" TextWrapping="Wrap" FontSize="18.667" FontFamily="Humanst521 BT"/>
+		<TextBlock Margin="144.359,166.11,0,0" VerticalAlignment="Top" FontFamily="Humanst521 BT" FontSize="18.667" Text="Harari" TextWrapping="Wrap" HorizontalAlignment="Left" Width="88.384"/>
+		<TextBlock Margin="144.359,206.223,0,0" VerticalAlignment="Top" FontFamily="Humanst521 BT" FontSize="18.667" Text="14-10-1967" TextWrapping="Wrap" HorizontalAlignment="Left" Width="88.384"/>
+		<TextBlock Margin="159.616,239.77,0,217.963" FontFamily="Humanst521 BT" FontSize="18.667" Text="PR" TextWrapping="Wrap" HorizontalAlignment="Left" Width="88.384" d:LayoutOverrides="Height"/>
+		<ListBox Margin="297.506,144.46,214.494,155.54">
+			<ListBox Width="16" Height="0"/>
+			<ListBoxItem Content="Task1"/>
+			<ListBoxItem Content="Task2"/>
+			<ListBoxItem Content="Task3"/>
+		</ListBox>
+		<Label HorizontalAlignment="Left" Margin="297.506,110.384,0,339.54" Content="Assigned tasks" Background="#00CB84AF" FontFamily="Humanst521 BT" FontSize="16" RenderTransformOrigin="4.3,7.571"/>
+		<Button Margin="0,0,36,96" VerticalAlignment="Bottom" Height="32" Content="Assign task" FontFamily="Humanst521 BT" FontSize="16" HorizontalAlignment="Right" Width="108" RenderTransformOrigin="-0.852,3">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_4"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<ListBox Margin="0,144.46,24,155.54" HorizontalAlignment="Right" Width="128">
+			<ListBox Width="16" Height="0"/>
+			<ListBoxItem Content="Task1"/>
+			<ListBoxItem Content="Task2"/>
+			<ListBoxItem Content="Task3"/>
+			<ListBoxItem Content="Task4"/>
+			<ListBoxItem Content="Task5"/>
+		</ListBox>
+		<Label HorizontalAlignment="Left" Margin="488,114.384,0,335.54" Content="All tasks" Background="#00CB84AF" FontFamily="Humanst521 BT" FontSize="16" RenderTransformOrigin="4.3,7.571"/>
+	</Grid>
+</UserControl>

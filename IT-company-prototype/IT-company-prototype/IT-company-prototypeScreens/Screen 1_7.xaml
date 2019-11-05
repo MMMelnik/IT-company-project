@@ -1,0 +1,53 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:Custom="http://schemas.microsoft.com/wpf/2008/toolkit" xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity" x:Name="Screen_1_7_Name"
+	x:Class="IT_company_prototypeScreens.Screen_1_7"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Image Source="pictures/wallpaper.jpg" Stretch="Fill"/>
+		<Label Margin="288,26.946,280,0" VerticalAlignment="Top" Content="New task" FontFamily="Humanst521 Lt BT" FontSize="16" Foreground="White" RenderTransformOrigin="1.667,0.275" >
+			<Label.Background>
+				<SolidColorBrush/>
+			</Label.Background>
+		</Label>
+		<RichTextBox Margin="317.013,134.367,40,72">
+			<FlowDocument>
+				<Paragraph><Run Text="RichTextBox"/></Paragraph>
+			</FlowDocument>
+		</RichTextBox>
+		<Label Margin="32,130.004,0,319.92" Content="Due to (Date):" Background="#00CB84AF" FontFamily="Humanst521 BT" FontSize="16" RenderTransformOrigin="4.3,7.571" HorizontalAlignment="Left"/>
+		<Custom:DatePicker Margin="38.99,164.08,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.566,0.253"/>
+		<Label Margin="317.013,90.076,206.63,359.848" Content="Task description" Background="#00CB84AF" FontFamily="Humanst521 BT" FontSize="16" RenderTransformOrigin="4.3,7.571" d:LayoutOverrides="Width"/>
+		<ComboBox Margin="32,0,0,159.928" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="120">
+			<ComboBoxItem Content="Ivan"/>
+			<ComboBoxItem Content="Bill"/>
+		</ComboBox>
+		<Label HorizontalAlignment="Left" Margin="37.603,264.036,0,185.888" Content="Employee" Background="#00CB84AF" FontFamily="Humanst521 BT" FontSize="16" RenderTransformOrigin="4.3,7.571"/>
+		<ComboBox HorizontalAlignment="Left" Margin="32,238.076,0,219.964" Width="120" d:LayoutOverrides="Height">
+			<ComboBoxItem Content="PR"/>
+			<ComboBoxItem Content="HR"/>
+		</ComboBox>
+		<Label HorizontalAlignment="Left" Margin="38.99,208,0,241.924" Content="Department" Background="#00CB84AF" FontFamily="Humanst521 BT" FontSize="16" RenderTransformOrigin="4.3,7.571"/>
+		<Label HorizontalAlignment="Left" Margin="32,56,0,393.924" Content="Task name" Background="#00CB84AF" FontFamily="Humanst521 BT" FontSize="16" RenderTransformOrigin="4.3,7.571"/>
+		<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Margin="32,90.076,0,0" Width="120" Height="23.92"/>
+		<Button Margin="0,0,40,32" VerticalAlignment="Bottom" Height="24" Content="Save" FontFamily="Humanst521 BT" FontSize="16" HorizontalAlignment="Right" Width="89.658">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_8"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button Margin="49.273,0,0,32" VerticalAlignment="Bottom" Height="28" Content="Go back" FontFamily="Humanst521 BT" FontSize="16" HorizontalAlignment="Left" Width="88" RenderTransformOrigin="-0.852,3">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_2"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+	</Grid>
+</UserControl>

@@ -64,11 +64,36 @@
     <Reference Include="Microsoft.Expression.Prototyping.SketchControls" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="ProjectDataSources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <ContainsDataSources>True</ContainsDataSources>
+    </Page>
+    <Page Include="SampleData\UsersSet\UsersSet.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Screen 1.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Screen 1_1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen 1_10.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen 1_11.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen 1_12.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen 1_13.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -84,6 +109,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Screen 1_5.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen 1_6.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen 1_7.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen 1_8.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen 1_9.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="SketchStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -94,11 +139,26 @@
     <Resource Include="pictures\wallpaper.jpg" />
     <Resource Include="Sketch.Flow" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleData\UsersSet\UsersSet.xaml.cs">
+      <DependentUpon>UsersSet.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Screen 1.xaml.cs">
       <DependentUpon>Screen 1.xaml</DependentUpon>
     </Compile>
     <Compile Include="Screen 1_1.xaml.cs">
       <DependentUpon>Screen 1_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screen 1_10.xaml.cs">
+      <DependentUpon>Screen 1_10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screen 1_11.xaml.cs">
+      <DependentUpon>Screen 1_11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screen 1_12.xaml.cs">
+      <DependentUpon>Screen 1_12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screen 1_13.xaml.cs">
+      <DependentUpon>Screen 1_13.xaml</DependentUpon>
     </Compile>
     <Compile Include="Screen 1_2.xaml.cs">
       <DependentUpon>Screen 1_2.xaml</DependentUpon>
@@ -109,6 +169,24 @@
     <Compile Include="Screen 1_4.xaml.cs">
       <DependentUpon>Screen 1_4.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Screen 1_5.xaml.cs">
+      <DependentUpon>Screen 1_5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screen 1_6.xaml.cs">
+      <DependentUpon>Screen 1_6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screen 1_7.xaml.cs">
+      <DependentUpon>Screen 1_7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screen 1_8.xaml.cs">
+      <DependentUpon>Screen 1_8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screen 1_9.xaml.cs">
+      <DependentUpon>Screen 1_9.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <DesignTimeOnly Include="SampleData\UsersSet\UsersSet.xsd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

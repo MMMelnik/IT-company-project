@@ -2,12 +2,54 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Name="Screen_1_3_Name"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="d"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity" x:Name="Screen_1_3_Name"
 	x:Class="IT_company_prototypeScreens.Screen_1_3"
-	Width="640" Height="480">
+	Width="608" Height="488">
 
 	<Grid x:Name="LayoutRoot" Background="White">
-		<Label Margin="96,144,168,160" Content="привіт блять" FontSize="29.333"/>
+		<Image Source="pictures/wallpaper.jpg" Stretch="Fill">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseDown">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Image>
+		<Label HorizontalAlignment="Left" Margin="48,32,0,0" VerticalAlignment="Top" Content="You are logged in as Emploee" FontFamily="Humanst521 Lt BT" FontSize="16" Width="248" Foreground="White" >
+			<Label.Background>
+				<SolidColorBrush/>
+			</Label.Background>
+		</Label>
+		<Button Margin="48,65.053,0,0" VerticalAlignment="Top" Height="30.947" Content="LogOut" FontFamily="Humanst521 BT" FontSize="16" HorizontalAlignment="Left" Width="88">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Label HorizontalAlignment="Left" Margin="72,128,0,321.924" Content="Tasks" Background="#00CB84AF" FontFamily="Humanst521 BT" FontSize="16" RenderTransformOrigin="4.3,7.571"/>
+		<ListBox HorizontalAlignment="Left" Margin="49.506,184,0,196" Width="100">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseDown">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_9"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+			<ListBoxItem Content="Task1">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseDown">
+						<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_9"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</ListBoxItem>
+			<ListBoxItem Content="Task2"/>
+			<ListBoxItem Content="Task3">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseDown">
+						<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1_9"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</ListBoxItem>
+		</ListBox>
 	</Grid>
 </UserControl>

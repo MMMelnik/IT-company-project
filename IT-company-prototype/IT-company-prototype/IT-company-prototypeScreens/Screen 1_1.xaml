@@ -2,10 +2,27 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Name="Screen_1_1_Name"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="d"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity" x:Name="Screen_1_1_Name"
 	x:Class="IT_company_prototypeScreens.Screen_1_1"
 	Width="640" Height="480">
 
-	<Grid x:Name="LayoutRoot" Background="White"/>
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Image Source="pictures/wallpaper.jpg" Stretch="Fill"/>
+		<Label Margin="232,32,240,0" VerticalAlignment="Top" Height="72" Content="Register" FontFamily="Humanst521 BT" FontSize="48" RenderTransformOrigin="1.333,0.444"/>
+		<TextBox Margin="184,170.04,208,0" VerticalAlignment="Top" Height="29.96" TextWrapping="Wrap"/>
+		<TextBox Margin="184,224,208,224" TextWrapping="Wrap"/>
+		<Label HorizontalAlignment="Left" Margin="72.409,170.04,0,0" VerticalAlignment="Top" Width="87.504" Height="29.96" Content="New login" FontFamily="Humanst521 BT" FontSize="16"/>
+		<Label HorizontalAlignment="Left" Margin="72.409,224,0,230.04" Content="New password" FontFamily="Humanst521 BT" FontSize="16" d:LayoutOverrides="Height"/>
+		<Label HorizontalAlignment="Left" Margin="72.409,0,0,168.873" VerticalAlignment="Bottom" Content="Pass Id" FontFamily="Humanst521 BT" FontSize="16"/>
+		<TextBox Margin="184,0,208,168" VerticalAlignment="Bottom" Height="29.96" TextWrapping="Wrap"/>
+		<Button Height="32" Content="Submit" FontFamily="Humanst521 BT" FontSize="16" Margin="232,0,264,104" VerticalAlignment="Bottom">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:NavigateToScreenAction TargetScreen="IT_company_prototypeScreens.Screen_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+	</Grid>
 </UserControl>
