@@ -1,0 +1,76 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Zah3
+{
+    class Program
+    {
+        public class User
+        {
+            public string Login { get; set; }
+            public string Password { get; set; }
+        }
+
+        public class LoginModel
+        {
+            public string userLogin { get; set; }
+            public string userPassword { get; set; }
+        }
+
+        public static class UserHolder
+        {
+            public static List<User> Users { get; set; }
+
+            static UserHolder()
+            {
+                Users = new List<User>();
+            }
+        }
+
+        public interface ILogic
+        {
+            void LogIn(string login, string password);
+            User Search(string login, string password);
+        }
+
+        public class Logic : ILogic
+        {
+            public void LogIn(string login, string password)
+            {
+                User user = Search(login, password);
+                if (user == null)
+                {
+                    Console.WriteLine("Неверный пароль или логин!");
+                }
+                else
+                {
+                    Console.WriteLine("Вы вошли в систему!");
+                }
+            }
+            public User Search(string login, string password)
+            {
+                User user = (from u in UserHolder.Users
+                             where u.Login.Equals(login)
+                             && u.Password.Equals(password)
+                             select u).FirstOrDefault();
+                return user;
+            }
+        }
+
+        
+        static void Main(string[] args)
+        {
+	LoginModel loginModel = new LoginModel();
+            loginModel.UserName = "5";
+            loginModel.UserPassword = "5";
+
+            IAuthProvider provider = new AuthProvider();
+            DataResult<LoginMod.User> res = provider.Login(model: loginModel);
+            Console.WriteLine($"{res.Success}");
+        }
+    }
+}
+
